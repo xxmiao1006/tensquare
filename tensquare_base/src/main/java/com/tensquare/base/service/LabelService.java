@@ -4,6 +4,8 @@ package com.tensquare.base.service;
 import com.tensquare.base.dao.LabelDao;
 import com.tensquare.base.pojo.Label;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
@@ -68,14 +70,16 @@ public class LabelService {
     }
 
     /**
-     * 条件查询
-     *
+     * 分页条件查询
      * @param searchMap
+     * @param page
+     * @param size
      * @return
      */
-    public List<Label> findSearch(Map searchMap) {
+    public Page<Label> findSearch(Map searchMap, int page, int size) {
         Specification specification = createSpecification(searchMap);
-        return labelDao.findAll(specification);
+        PageRequest pageRequest = PageRequest.of(page - 1, size);
+        return labelDao.findAll(specification,pageRequest);
     }
 
     /**
