@@ -1,8 +1,8 @@
-package com.tensquare.base.service;
+package com.tensquare.recruit.service;
 
 
-import com.tensquare.base.dao.LabelDao;
-import com.tensquare.base.pojo.Label;
+import com.tensquare.recruit.dao.LabelDao;
+import com.tensquare.recruit.pojo.Label;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

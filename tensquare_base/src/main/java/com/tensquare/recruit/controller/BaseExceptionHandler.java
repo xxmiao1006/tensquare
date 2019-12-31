@@ -1,4 +1,4 @@
-package com.tensquare.base.controller;
+package com.tensquare.recruit.controller;
 
 import entity.Result;
 import entity.StatusCode;

@@ -1,7 +1,7 @@
-package com.tensquare.base.controller;
+package com.tensquare.recruit.controller;
 
-import com.tensquare.base.pojo.Label;
-import com.tensquare.base.service.LabelService;
+import com.tensquare.recruit.pojo.Label;
+import com.tensquare.recruit.service.LabelService;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
@@ -16,6 +16,7 @@ import java.util.Map;
  * 标签控制层
  */
 @RestController
+@CrossOrigin
 @RequestMapping("/label")
 public class LabelController {
 
