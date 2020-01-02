@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="qa">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/ArticleApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/BaseExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/ChannelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/controller/ColumnController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/ArticleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/ChannelDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/dao/ColumnDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Channel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/pojo/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ChannelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ColumnService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_article/tensquare_article.iml" afterDir="false" />
+    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +177,7 @@
       <updated>1577776281524</updated>
       <workItem from="1577776290321" duration="17586000" />
       <workItem from="1577934471951" duration="911000" />
-      <workItem from="1577935728715" duration="11294000" />
+      <workItem from="1577935728715" duration="12684000" />
     </task>
     <task id="LOCAL-00001" summary="condition search">
       <created>1577788651527</created>
@@ -224,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577946974864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Article">
+      <created>1577968420950</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577968420950</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,13 +226,14 @@
     <MESSAGE value="page,condition search" />
     <MESSAGE value="recruit enterprise" />
     <MESSAGE value="qa" />
-    <option name="LAST_COMMIT_MESSAGE" value="qa" />
+    <MESSAGE value="Article" />
+    <option name="LAST_COMMIT_MESSAGE" value="Article" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1577946982239">
+    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1577968417908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577946982239" />
+    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577968417908" />
     <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1577951584908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -303,10 +294,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="535" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577949597627" />
-    <state x="334" y="130" key="new project wizard" timestamp="1577946778447">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1577968445527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577946778447" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577968445527" />
+    <state x="334" y="130" key="new project wizard" timestamp="1577970228098">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577970228098" />
   </component>
   <component name="masterDetails">
     <states>

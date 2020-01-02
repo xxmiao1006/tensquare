@@ -18,6 +18,7 @@ import javax.persistence.criteria.Root;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 服务层
@@ -87,7 +88,7 @@ public class ArticleService {
         if (article == null) {
             article = articleDao.findById(id).get();
             System.out.println("从数据库中获取到article_" + id);
-            redisTemplate.opsForValue().set("article_" + id, article);
+            redisTemplate.opsForValue().set("article_" + id, article,1,TimeUnit.DAYS);
         }
         return article;
     }
