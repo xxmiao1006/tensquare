@@ -11,12 +11,12 @@ public class Pl implements Serializable {
     @Id
     private String problemid;
     @Id
-    private String lableid;
+    private String labelid;
     public String getLableid() {
-        return lableid;
+        return labelid;
     }
     public void setLableid(String lableid) {
-        this.lableid = lableid;
+        this.labelid = lableid;
     }
     public String getProblemid() {
         return problemid;
