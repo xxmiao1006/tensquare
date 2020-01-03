@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/GatheringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/controller/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/controller/GatheringController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/dao/GatheringDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/pojo/Gathering.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/java/com/tensquare/gathering/service/GatheringService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_gathering/tensquare_gathering.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_article/src/main/java/com/tensquare/article/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +78,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577935383231" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_article/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tensquare_gathering/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaProjects\tensquare_parent\tensquare_gathering\src\main\resources" />
+      <recent name="E:\ideaProjects\tensquare_parent\tensquare_gathering\src\main\java\com\tensquare\gathering" />
       <recent name="E:\ideaProjects\tensquare_parent\tensquare_article\src\main\resources" />
       <recent name="E:\ideaProjects\tensquare_parent\tensquare_article\src\main\java\com\tensquare\article" />
       <recent name="E:\ideaProjects\tensquare_parent\tensquare_qa\src\main\resources" />
-      <recent name="E:\ideaProjects\tensquare_parent\tensquare_qa\src\main\java\com\tensquare\qa" />
-      <recent name="E:\ideaProjects\tensquare_parent\tensquare_recruit\src\main\java\com\tensquare\recruit" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.ArticleApplication">
@@ -177,7 +188,8 @@
       <updated>1577776281524</updated>
       <workItem from="1577776290321" duration="17586000" />
       <workItem from="1577934471951" duration="911000" />
-      <workItem from="1577935728715" duration="12684000" />
+      <workItem from="1577935728715" duration="13914000" />
+      <workItem from="1578041691819" duration="2424000" />
     </task>
     <task id="LOCAL-00001" summary="condition search">
       <created>1577788651527</created>
@@ -214,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577968420950</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Article redis cache">
+      <created>1577970266347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577970266347</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,69 +246,70 @@
     <MESSAGE value="recruit enterprise" />
     <MESSAGE value="qa" />
     <MESSAGE value="Article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Article" />
+    <MESSAGE value="Article redis cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Article redis cache" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1577968417908">
+    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1577970264862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577968417908" />
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1577951584908">
+    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1577970264862" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1577972445844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445844" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1577972445843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445843" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1577972445843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445843" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1577972445843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1577951584909">
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445843" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1577972445845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584909" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445845" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1577972445845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445845" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1577972445845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1577951584908">
+    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445845" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1577972445845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584908" />
-    <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1577951584909">
+    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445845" />
+    <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1577972445846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584909" />
-    <state width="1877" height="346" key="GridCell.Tab.2.center" timestamp="1577951584909">
+    <state width="1877" height="346" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445846" />
+    <state width="1877" height="346" key="GridCell.Tab.2.center" timestamp="1577972445846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584909" />
-    <state width="1877" height="346" key="GridCell.Tab.2.left" timestamp="1577951584909">
+    <state width="1877" height="346" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445846" />
+    <state width="1877" height="346" key="GridCell.Tab.2.left" timestamp="1577972445845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584909" />
-    <state width="1877" height="346" key="GridCell.Tab.2.right" timestamp="1577951584909">
+    <state width="1877" height="346" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445845" />
+    <state width="1877" height="346" key="GridCell.Tab.2.right" timestamp="1577972445846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577951584909" />
+    <state width="1877" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577972445846" />
     <state x="666" y="231" key="RollbackChangesDialog" timestamp="1577944277182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577944277182" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1577944601195">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578042200153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577944601195" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578042200153" />
     <state width="535" height="446" key="SwitcherDM" timestamp="1577949597627">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -298,10 +318,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577968445527" />
-    <state x="334" y="130" key="new project wizard" timestamp="1577970228098">
+    <state x="334" y="130" key="new project wizard" timestamp="1577970280995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577970228098" />
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1577970280995" />
   </component>
   <component name="masterDetails">
     <states>
