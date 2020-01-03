@@ -13,6 +13,6 @@ spring:
     show‐sql: true
     generate‐ddl: true
   redis:
-    host: 47.97.194.156
+    host: 192.168.179.129
     port: 6379
-    password: root
+    password: sUlnkfBOQ3MglYN1
