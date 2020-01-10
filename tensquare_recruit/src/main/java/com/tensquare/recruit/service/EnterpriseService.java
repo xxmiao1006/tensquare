@@ -2,7 +2,6 @@ package com.tensquare.recruit.service;
 
 import com.tensquare.recruit.dao.EnterpriseDao;
 import com.tensquare.recruit.pojo.Enterprise;
-import com.tensquare.recruit.pojo.Recruit;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

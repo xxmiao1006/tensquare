@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/test/java/RecruitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/SpecificationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/dao/EnterpriseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/EnterpriseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/dao/EnterpriseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/main/java/com/tensquare/recruit/service/EnterpriseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/src/test/java/RecruitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/src/test/java/RecruitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_recruit/target/classes/com/tensquare/recruit/service/EnterpriseService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,11 +156,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RecruitTest.test" />
       <item itemvalue="Spring Boot.ArticleApplication" />
       <item itemvalue="Spring Boot.SearchApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
       <item itemvalue="Spring Boot.SmsApplication" />
-      <item itemvalue="JUnit.RecruitTest.test" />
     </list>
     <recent_temporary>
       <list>
@@ -205,7 +208,8 @@
       <workItem from="1578365840399" duration="5206000" />
       <workItem from="1578449520977" duration="9237000" />
       <workItem from="1578531425133" duration="790000" />
-      <workItem from="1578537492796" duration="6528000" />
+      <workItem from="1578537492796" duration="8548000" />
+      <workItem from="1578619551177" duration="4845000" />
     </task>
     <task id="LOCAL-00001" summary="condition search">
       <created>1577788651527</created>
@@ -298,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578469916685</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="enterprise jpa modify">
+      <created>1578552534964</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578552534964</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,53 +330,54 @@
     <MESSAGE value="elasticsearch" />
     <MESSAGE value="user" />
     <MESSAGE value="sms" />
-    <option name="LAST_COMMIT_MESSAGE" value="sms" />
+    <MESSAGE value="enterprise jpa modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="enterprise jpa modify" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578551206637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578551206637" />
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1578469912036">
+    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1578552532442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578469912036" />
+    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578552532442" />
     <state x="174" y="92" key="DiffContextDialog" timestamp="1578366011933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="174" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578366011933" />
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1578552111271">
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111271" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1578552111270">
+    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111270" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1578552111271">
+    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1578625409524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578552111271" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578625409524" />
     <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1578473405321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -382,10 +394,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="346" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578473405321" />
-    <state x="666" y="231" key="RollbackChangesDialog" timestamp="1578551273940">
+    <state x="666" y="231" key="RollbackChangesDialog" timestamp="1578624231968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578551273940" />
+    <state x="666" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578624231968" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578365899964">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -406,10 +418,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1578465306463" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578540437854">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578621069384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578540437854" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578621069384" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tensquare_recruit/src/test/java/RecruitTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>
