@@ -8,6 +8,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import util.IdWorker;
 
@@ -37,6 +38,26 @@ public class UserService {
 
     @Autowired
     private RabbitTemplate rabbitTemplate;
+
+    @Autowired
+    BCryptPasswordEncoder encoder;
+
+    /**
+     * 根据手机号和密码查询用户
+     *
+     * @param mobile
+     * @param password
+     * @return
+     */
+    public User findByMobileAndPassword(String mobile, String password) {
+        User user = userDao.findByMobile(mobile);
+        if (user != null && encoder.matches(password, user.getPassword())) {
+            return user;
+        } else {
+            return null;
+        }
+    }
+
 
     /**
      * 发送短信验证码
@@ -78,6 +99,11 @@ public class UserService {
         if (!syscode.equals(code)) {
             throw new RuntimeException("验证码输入不正确");
         }
+
+        //密码加密
+        String newPassworrd = encoder.encode(user.getPassword());
+        user.setPassword(newPassworrd);
+
         user.setId(idWorker.nextId() + "");
         user.setFollowcount(0);//关注数
         user.setFanscount(0);//粉丝数
@@ -142,6 +168,11 @@ public class UserService {
      */
     public void add(User user) {
         user.setId(idWorker.nextId() + "");
+
+        //密码加密
+        String newPassworrd = encoder.encode(user.getPassword());
+        user.setPassword(newPassworrd);
+
         userDao.save(user);
     }
 

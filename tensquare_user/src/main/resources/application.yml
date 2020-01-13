@@ -17,3 +17,7 @@ spring:
       password: sUlnkfBOQ3MglYN1
   rabbitmq:
       host: 192.168.179.129
+jwt:
+  config:
+    key: itcast
+    ttl: 360000
