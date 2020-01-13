@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="SpecificationFactory">
-      <change afterPath="$PROJECT_DIR$/tensquare_common/src/main/java/util/JwtUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/filter/JwtFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/filter/JwtFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/QaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/controller/ProblemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +82,9 @@
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tensquare.qa.filter" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ideaProjects\tensquare\tensquare_sms\src\main\java\com\tensquare\sms\util" />
       <recent name="E:\ideaProjects\tensquare\tensquare_user\src\main\java\com\tensquare\user" />
@@ -218,7 +211,7 @@
       <workItem from="1578531425133" duration="790000" />
       <workItem from="1578537492796" duration="8548000" />
       <workItem from="1578619551177" duration="10548000" />
-      <workItem from="1578880130979" duration="7477000" />
+      <workItem from="1578880130979" duration="7962000" />
     </task>
     <task id="LOCAL-00001" summary="condition search">
       <created>1577788651527</created>
@@ -325,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578625433096</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="jwt">
+      <created>1578898773887</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578898773887</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,17 +348,18 @@
     <MESSAGE value="sms" />
     <MESSAGE value="enterprise jpa modify" />
     <MESSAGE value="SpecificationFactory" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpecificationFactory" />
+    <MESSAGE value="jwt" />
+    <option name="LAST_COMMIT_MESSAGE" value="jwt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1578897061911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578897061911" />
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1578625439101">
+    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1578898770602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578625439101" />
+    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1578898770602" />
     <state x="174" y="92" key="DiffContextDialog" timestamp="1578366011933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -444,9 +445,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/controller/UserController.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/tensquare_user/src/main/java/com/tensquare/user/service/UserService.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
