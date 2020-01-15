@@ -11,4 +11,9 @@ aliyun:
     accessKeySecret: you guess
     template_code: you guess
     sign_name: you guess
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka
+  instance:
+    prefer-ip-address: true
