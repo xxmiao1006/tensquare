@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/impl/LabelClientImpl.java" afterDir="false" />
+    <list default="true" id="9fb59150-28e4-4ad0-888b-f5c2bebf4570" name="Default Changelist" comment="feign-hystrix">
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/java/com/tensquare/web/WebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tensquare_manager/tensquare_manager.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/java/com/tensquare/qa/client/LabelClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tensquare_qa/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +81,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -217,7 +221,8 @@
       <workItem from="1578880130979" duration="7962000" />
       <workItem from="1579052219635" duration="9501000" />
       <workItem from="1579136896837" duration="7568000" />
-      <workItem from="1579223986509" duration="7304000" />
+      <workItem from="1579223986509" duration="10018000" />
+      <workItem from="1579516419368" duration="2686000" />
     </task>
     <task id="LOCAL-00001" summary="condition search">
       <created>1577788651527</created>
@@ -352,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579142209848</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feign-hystrix">
+      <created>1579315324497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579315324497</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +391,8 @@
     <MESSAGE value="spring cloud eureka" />
     <MESSAGE value="spring cloud feign" />
     <MESSAGE value="friend" />
-    <option name="LAST_COMMIT_MESSAGE" value="friend" />
+    <MESSAGE value="feign-hystrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign-hystrix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579055358891">
@@ -390,46 +403,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579139019228" />
-    <state x="506" y="110" key="CommitChangelistDialog2" timestamp="1579142207172">
+    <state x="682" y="108" key="CommitChangelistDialog2" timestamp="1579516594110">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="506" y="110" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579142207172" />
-    <state x="174" y="92" key="DiffContextDialog" timestamp="1578366011933">
+    <state x="682" y="108" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579516594110" />
+    <state x="174" y="92" key="DiffContextDialog" timestamp="1579516563974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="174" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578366011933" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1579315290585">
+    <state x="174" y="92" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579516563974" />
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.1.center" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.1.center" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.1.left" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.1.left" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
-    <state width="1877" height="277" key="GridCell.Tab.1.right" timestamp="1579315290585">
+    <state width="1877" height="277" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right" timestamp="1579319883335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579315290585" />
+    <state width="1877" height="277" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579319883335" />
     <state width="1877" height="346" key="GridCell.Tab.2.bottom" timestamp="1579315226557">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -450,10 +463,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="231" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578624231968" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1579224708778">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1579315852711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579224708778" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579315852711" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1578309537193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -462,18 +475,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="535" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577949597627" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1579066869006">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1580694343136">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579066869006" />
-    <state x="334" y="130" key="new project wizard" timestamp="1579137347584">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580694343136" />
+    <state x="334" y="130" key="new project wizard" timestamp="1579315509660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579137347584" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578638324257">
+    <state x="334" y="130" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579315509660" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1579315970105">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578638324257" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1579315970105" />
   </component>
   <component name="masterDetails">
     <states>
